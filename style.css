@@ -28,10 +28,11 @@ padding: 10px;
   object-fit: cover;
   border-radius: 50%; /* zaokrąglenie zdjęcia */
   padding: 8px;
-  background: linear-gradient(135deg, #ff0066, #6600ff);
-  border: 3px solid #fff; 
+  background: linear-gradient(135deg, #ff0066, #6600ff); 
+  border: 3px solid #2c2828;
   box-shadow: 0 0 12px rgba(255, 0, 102, 0.6);
 }
+
 
 
 .social-buttons a {
