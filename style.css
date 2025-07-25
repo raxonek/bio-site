@@ -1,5 +1,5 @@
 body {
-  background-color: #121212;
+  background-color: #0f0f0f;
   color: #fff;
   font-family: 'Segoe UI', sans-serif;
   text-align: center;
@@ -7,50 +7,52 @@ body {
 }
 
 .container {
-width: 50%;
-background-color: #0f0f0f;
-border-radius: 10px;
-padding: 10px;
+  max-width: 350px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
 
 .profile-frame {
   border: 5px solid #ff0066;
   border-radius: 50%;
-  padding: 5px;
-  display: inline-block;
+  padding: 6px;
   background: linear-gradient(45deg, #ff0066, #ffcc00);
+  margin-bottom: 20px;
 }
 
 .profile-img {
-  width: 180px;
-  height: 180px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
-  border-radius: 50%; /* zaokrąglenie zdjęcia */
-  padding: 8px;
-  background: linear-gradient(135deg, #ff0066, #6600ff); 
-  border: 3px solid #2c2828;
-  box-shadow: 0 0 12px rgba(255, 0, 102, 0.6);
 }
 
-
+.social-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
 
 .social-buttons a {
-  display: inline-block;
-  margin: 10px;
-  padding: 10px 20px;
-  border-radius: 8px;
+  padding: 12px;
   color: #fff;
   text-decoration: none;
-  transition: background-color 0.3s;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background 0.3s;
 }
 
-.social-buttons a.youtube { background-color: #FF0000; }
 .social-buttons a.tiktok { background-color: #010101; }
 .social-buttons a.instagram { background-color: #C13584; }
 .social-buttons a.github { background-color: #333; }
+.social-buttons a.youtube { background-color: #FF0000; }
 
 .social-buttons a:hover {
-  opacity: 0.8;
+  opacity: 0.85;
 }
+
 
