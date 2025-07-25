@@ -7,9 +7,12 @@ body {
 }
 
 .container {
-  max-width: 400px;
-  margin: auto;
+width: 50%;
+background-color: #0f0f0f;
+border-radius: 10px;
+padding: 10px;
 }
+
 
 .profile-frame {
   border: 5px solid #ff0066;
@@ -20,11 +23,16 @@ body {
 }
 
 .profile-img {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   object-fit: cover;
+  border-radius: 50%; /* zaokrąglenie zdjęcia */
+  padding: 8px;
+  background: linear-gradient(135deg, #ff0066, #6600ff);
+  border: 3px solid #fff; 
+  box-shadow: 0 0 12px rgba(255, 0, 102, 0.6);
 }
+
 
 .social-buttons a {
   display: inline-block;
