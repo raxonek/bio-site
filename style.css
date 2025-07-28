@@ -46,10 +46,19 @@ body {
   transition: background 0.3s;
 }
 
-.social-buttons a.tiktok { background-color: #010101; }
-.social-buttons a.instagram { background-color: #C13584; }
-.social-buttons a.github { background-color: #333; }
-.social-buttons a.youtube { background-color: #FF0000; }
+.social-buttons a.tiktok:hover { background-color: #010101;
+  transition: all 0.5s;
+}
+
+.social-buttons a.instagram { background-color: #C13584; 
+  transition: all 0.5s;
+}
+.social-buttons a.github { background-color: #333; 
+  transition: all 0.5s;
+}
+.social-buttons a.youtube { background-color: #FF0000; 
+  transition: all 0.5s;
+}
 
 .social-buttons a:hover {
   opacity: 0.85;
