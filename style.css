@@ -50,13 +50,13 @@ body {
   transition: all 1s;
 }
 
-.social-buttons a.instagram { background-color: #C13584; 
+.social-buttons a.instagram:hover { background-color: #C13584; 
   transition: all 1s;
 }
-.social-buttons a.github { background-color: #c71515; 
+.social-buttons a.github:hover { background-color: #c71515; 
   transition: all 1s;
 }
-.social-buttons a.youtube { background-color: #685e5e; 
+.social-buttons a.youtube:hover { background-color: #685e5e; 
   transition: all 1s;
 }
 .social-buttons a.innaStrona:hover { background-color: #ff0000;
