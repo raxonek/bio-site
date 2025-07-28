@@ -47,17 +47,17 @@ body {
 }
 
 .social-buttons a.tiktok:hover { background-color: #010101;
-  transition: all 0.5s;
+  transition: all 1s;
 }
 
 .social-buttons a.instagram { background-color: #C13584; 
-  transition: all 0.5s;
+  transition: all 1s;
 }
 .social-buttons a.github { background-color: #333; 
-  transition: all 0.5s;
+  transition: all 1s;
 }
 .social-buttons a.youtube { background-color: #FF0000; 
-  transition: all 0.5s;
+  transition: all 1s;
 }
 
 .social-buttons a:hover {
