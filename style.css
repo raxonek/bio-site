@@ -43,7 +43,7 @@ body {
   text-decoration: none;
   font-weight: bold;
   border-radius: 8px;
-  transition: background 0.3s;
+  transition: 1s;
 }
 
 .social-buttons a.tiktok:hover { background-color: #010101;
@@ -59,7 +59,9 @@ body {
 .social-buttons a.youtube { background-color: #FF0000; 
   transition: all 1s;
 }
-
+.social-buttons a.InnaStrona:hover { background-color: #ff0000;
+  transition: all 1s;
+}
 .social-buttons a:hover {
   opacity: 0.85;
 }
